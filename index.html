@@ -1,87 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>APFJOVEM | Associação Progresso e Formação de Jovens</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffffff;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background-color: #006633;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* MENU */
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            color: #006633;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        section h3 {
+            color: #006633;
+            margin-top: 25px;
+            margin-bottom: 8px;
+        }
+
+        section p {
+            font-size: 17px;
+            margin-bottom: 15px;
+        }
+
+        /* ÁREA INICIAL */
+
+        #inicio {
+            text-align: center;
+            background-color: #f4f8f5;
+            max-width: 100%;
+        }
+
+        #inicio h2 {
+            font-size: 36px;
+        }
+
+        /* PROGRAMAS */
+
+        .programa {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 5px solid #006633;
+            background-color: #f7f7f7;
+        }
+
+        /* CONTACTOS */
+
+        #contactos {
+            background-color: #f4f8f5;
+            max-width: 100%;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        /* TELEMÓVEL */
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            #inicio h2 {
+                font-size: 28px;
+            }
+
+            section h2 {
+                font-size: 26px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
     <header>
 
-    <img src="logo-apfjovem.png" alt="Logotipo da APFJOVEM" class="logo">
+        <img src="logo-apfjovem.png"
+             alt="Logotipo da APFJOVEM"
+             class="logo">
 
-    <h1>APFJOVEM</h1>
+        <h1>APFJOVEM</h1>
 
-    <p>
-        Associação Progresso e Formação de Jovens
-    </p>
+        <p>
+            Associação Progresso e Formação de Jovens
+        </p>
+
         <nav>
             <a href="#inicio">Início</a>
             <a href="#sobre">Sobre Nós</a>
             <a href="#programas">Programas</a>
             <a href="#contactos">Contactos</a>
         </nav>
+
     </header>
 
 
+    <!-- CONTEÚDO PRINCIPAL -->
+
     <main>
 
+        <!-- INÍCIO -->
+
         <section id="inicio">
-            <h2>Juventude com visão, acção e futuro</h2>
+
+            <h2>
+                Juventude com visão, acção e futuro
+            </h2>
 
             <p>
                 A APFJOVEM trabalha para contribuir para uma vida
                 e um futuro melhor para os jovens moçambicanos,
                 promovendo o desenvolvimento e a participação juvenil.
             </p>
+
         </section>
 
 
+        <!-- SOBRE -->
+
         <section id="sobre">
-            <h2>Sobre a APFJOVEM</h2>
+
+            <h2>
+                Sobre a APFJOVEM
+            </h2>
 
             <p>
                 A Associação Progresso e Formação de Jovens (APFJOVEM)
                 é uma organização dedicada à valorização, formação,
                 inclusão e desenvolvimento dos jovens.
             </p>
+
+            <p>
+                A nossa missão é criar oportunidades para que os jovens
+                possam desenvolver conhecimentos, competências e
+                iniciativas capazes de contribuir para o seu futuro
+                e para o desenvolvimento de Moçambique.
+            </p>
+
         </section>
 
+
+        <!-- PROGRAMAS -->
 
         <section id="programas">
-            <h2>Os nossos programas</h2>
 
-            <h3>Program de Saúde e Bem-Estar - PRÓSAÚDE</h3>
-            <p>
-                Promoção da saúde sexual e reprodutiva, planeamento
-                familiar, prevenção do HIV/SIDA e prevenção da VBG.
-            </p>
+            <h2>
+                Os nossos programas
+            </h2>
 
-            <h3>Programa de Formação Profissional Sustentável de Jovens - PROFISJOVEM</h3>
-            <p>
-                Formação de jovens em áreas que podem contribuir
-                para o auto-emprego e geração de rendimento.
-            </p>
 
-            <h3>Programa de Incubadora de Negócios - PINJOVEM</h3>
-            <p>
-                Apoio a jovens na transformação de ideias em
-                iniciativas e negócios sustentáveis.
-            </p>
+            <div class="programa">
+
+                <h3>
+                    Programa de Saúde e Bem-Estar – PRÓSAÚDE
+                </h3>
+
+                <p>
+                    Promoção da saúde sexual e reprodutiva,
+                    planeamento familiar, prevenção do HIV/SIDA,
+                    prevenção da violência baseada no género e
+                    promoção do bem-estar dos jovens.
+                </p>
+
+            </div>
+
+
+            <div class="programa">
+
+                <h3>
+                    Programa de Formação Profissional Sustentável
+                    de Jovens – PROFISJOVEM
+                </h3>
+
+                <p>
+                    Formação gratuita de jovens em áreas que podem contribuir
+                    para o desenvolvimento de competências,
+                    auto-emprego e geração de rendimento.
+                </p>
+
+            </div>
+
+
+            <div class="programa">
+
+                <h3>
+                    Programa de Incubadora de Negócios – PINJOVEM
+                </h3>
+
+                <p>
+                    Apoio aos jovens na transformação de ideias em
+                    iniciativas e negócios sustentáveis, através de
+                    orientação, acompanhamento e desenvolvimento
+                    de competências empreendedoras.
+                </p>
+
+            </div>
+
         </section>
 
 
-        <section id="contactos">
-            <h2>Contacte-nos</h2>
+        <!-- CONTACTOS -->
+
+        <section id="+258875630344">
+
+            <h2>
+                Contacte-nos
+            </h2>
 
             <p>
-                APFJOVEM – Associação Progresso e Formação de Jovens
+                <strong>APFJOVEM</strong> – Associação Progresso e
+                Formação de Jovens
             </p>
 
             <p>
                 Maputo, Moçambique
             </p>
+
+            <p>
+                Trabalhamos para contribuir para uma vida e um
+                futuro melhor dos jovens moçambicanos.
+            </p>
+
         </section>
 
     </main>
 
 
+    <!-- RODAPÉ -->
+
     <footer>
+
         <p>
-            © 2026 APFJOVEM. Planeie o Seu Futuro | Todos os direitos reservados.
+            © 2026 APFJOVEM.
+            Planeie o Seu Futuro |
+            Todos os direitos reservados.
         </p>
+
     </footer>
 
 </body>
